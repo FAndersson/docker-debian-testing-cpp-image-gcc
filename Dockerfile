@@ -1,6 +1,6 @@
 # Docker image for C++ development using GCC, based on base C++ image for Debian testing.
 
-FROM fredrikandersson/debian-testing-cpp-image-base:buster-2018-09-17
+FROM fredrikandersson/debian-testing-cpp-image-base
 
 # We don't want to mix with gcc/stdlibc++ ver. 4
 RUN apt-get remove gcc --quiet --yes
